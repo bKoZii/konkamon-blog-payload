@@ -10,3 +10,5 @@ node_modules
 .vercel
 .prettierignore
 .prettierrc.js
+package-lock.json
+yarn.lock
