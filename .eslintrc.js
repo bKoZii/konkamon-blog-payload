@@ -2,8 +2,11 @@ module.exports = {
   root: true,
   extends: ['plugin:@next/next/recommended', '@payloadcms'],
   ignorePatterns: ['**/payload-types.ts'],
-  plugins: ['prettier'],
+  plugins: ['prettier', 'quotes'],
+
   rules: {
-    "quotes": [2, "single", { "avoidEscape": true }]
-  }
+ 
+     "quotes/quotes": [2, "single", { avoidEscape: true }],
+ 
+  },
 }
