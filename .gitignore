@@ -1,14 +1,8 @@
-# Profile files
-.env
-
 build
 dist
 /media
 node_modules
 .DS_Store
+.env
 .next
 .vercel
-.prettierignore
-.prettierrc.js
-package-lock.json
-yarn.lock
